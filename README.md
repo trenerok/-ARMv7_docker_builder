@@ -17,4 +17,4 @@ ARG OPENSSL_PATH=**/usr/local/openssl**<br>
   
 After executing, you will get your compiled python in the target folder<br>
 
-Important! In case of Xiaomi vacuum cleaner when pip install is not working (error like `Can't connect to HTTPS URL because the SSL module is not available.`) You must put the following files `lybcrypto.so.*`, `libssl.so.*` to the OPENSSL_PATH(that we used at compiling OpenSSL) directory on Xiaomi Vacuum cleaner.
+Important! In case of Xiaomi vacuum cleaner when pip install is not working (error like `Can't connect to HTTPS URL because the SSL module is not available.`) You must put the following files `lybcrypto.so.*`, `libssl.so.*` from `target` dir to the OPENSSL_PATH(that we used at compiling OpenSSL) directory on Xiaomi Vacuum cleaner.
